@@ -58,7 +58,7 @@ def parse_args():
     return args
 
 if __name__ == '__main__':
-
+#python train_base.py --data_name JNU --data_dir D:/0-Data/2-benchmark/Data/Mechanical-datasets/JNU --checkpoint_dir D:/0-Data/2-benchmark/Benchmark/UDTL_Results/checkpoint_adabn --transfer_task [0],[1] --adabn False 
     args = parse_args()
     os.environ['CUDA_VISIBLE_DEVICES'] = args.cuda_device.strip()
     # Prepare the saving path for the model
